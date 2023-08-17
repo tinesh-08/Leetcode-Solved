@@ -1,6 +1,6 @@
 class Solution:
     def lengthOfLastWord(self, s: str) -> int:
-        a=[x for x in s.split(" ") if len(x)>=1]
+        a=[x for x in s.split(" ") if len(x)>0]
         if len(a)==0:
             s=s.replace(' ','')
             return len(s)
