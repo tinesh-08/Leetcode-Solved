@@ -1,2 +1,2 @@
 # Leetcode-Solved
-Programs solved in leetcode - 11
+Programs solved in leetcode
